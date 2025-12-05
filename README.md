@@ -247,7 +247,7 @@ https://github.com/jkumari08/blink-shop
 
 ## Demo Video
 
-https://youtu.be/x00CvmI3nUw
+https://youtu.be/owRuzVE6FGk
 
 ## X URL
 
