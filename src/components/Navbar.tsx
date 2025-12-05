@@ -37,25 +37,31 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+          <div className="hidden lg:flex items-center gap-6">
+            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               Home
             </Link>
-            <Link to="/create" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-              Create Blink
+            <Link to="/create" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Create
             </Link>
-            <Link to="/my-blinks" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+            <Link to="/my-blinks" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               My Blinks
             </Link>
-            <Link to="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+            <Link to="/transactions" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Transactions
+            </Link>
+            <Link to="/wishlist" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Wishlist
+            </Link>
+            <Link to="/bulk-upload" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Bulk Upload
+            </Link>
+            <Link to="/social-sharing" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
+              Share
+            </Link>
+            <Link to="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               Earnings
             </Link>
-            <button onClick={() => handleSectionScroll("features")} className="text-muted-foreground hover:text-foreground transition-colors text-sm bg-none border-none cursor-pointer">
-              Features
-            </button>
-            <button onClick={() => handleSectionScroll("how-it-works")} className="text-muted-foreground hover:text-foreground transition-colors text-sm bg-none border-none cursor-pointer">
-              How it Works
-            </button>
           </div>
 
           {/* CTA */}
@@ -84,6 +90,18 @@ const Navbar = () => {
               </Link>
               <Link to="/my-blinks" className="text-muted-foreground hover:text-foreground transition-colors">
                 My Blinks
+              </Link>
+              <Link to="/transactions" className="text-muted-foreground hover:text-foreground transition-colors">
+                Transactions
+              </Link>
+              <Link to="/wishlist" className="text-muted-foreground hover:text-foreground transition-colors">
+                Wishlist
+              </Link>
+              <Link to="/bulk-upload" className="text-muted-foreground hover:text-foreground transition-colors">
+                Bulk Upload
+              </Link>
+              <Link to="/social-sharing" className="text-muted-foreground hover:text-foreground transition-colors">
+                Share
               </Link>
               <Link to="/dashboard" className="text-muted-foreground hover:text-foreground transition-colors">
                 Earnings

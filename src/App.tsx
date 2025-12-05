@@ -9,6 +9,10 @@ import Index from "./pages/Index";
 import CreateBlink from "./pages/CreateBlink";
 import MyBlinks from "./pages/MyBlinks";
 import MerchantDashboard from "./pages/MerchantDashboard";
+import TransactionHistory from "./pages/TransactionHistory";
+import Wishlist from "./pages/Wishlist";
+import BulkProductUpload from "./pages/BulkProductUpload";
+import SocialSharing from "./pages/SocialSharing";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -68,6 +72,10 @@ const App = () => {
                 <Route path="/create" element={<CreateBlink />} />
                 <Route path="/my-blinks" element={<MyBlinks />} />
                 <Route path="/dashboard" element={<MerchantDashboard />} />
+                <Route path="/transactions" element={<TransactionHistory />} />
+                <Route path="/wishlist" element={<Wishlist />} />
+                <Route path="/bulk-upload" element={<BulkProductUpload />} />
+                <Route path="/social-sharing" element={<SocialSharing />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>
