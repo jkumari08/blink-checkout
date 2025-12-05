@@ -12,6 +12,8 @@
 4. [Architecture](#architecture)
 5. [Tech Stack](#tech-stack)
 6. [Features](#features)
+7. [Merchant Features](#merchant-features)
+8. [How to Use](#how-to-use)
 
 ---
 
@@ -142,6 +144,7 @@ src/
 
 ## Features
 
+### Core Features
 ✅ Multi-token payments (SOL, USDC, USDT)  
 ✅ 4 wallet support  
 ✅ Real devnet transactions  
@@ -150,6 +153,88 @@ src/
 ✅ Mobile responsive  
 ✅ Zero TypeScript errors  
 ✅ 400ms settlement  
+
+### Merchant Features
+✅ **Bulk Product Upload** - Import 1-1000+ products via CSV/JSON with batch processing, progress tracking, and error handling  
+✅ **Social Sharing** - Pre-written templates for Twitter, Discord, and Telegram with one-click sharing and platform-specific analytics  
+✅ **Transaction History** - Track all buyer transactions with timestamps, amounts, tokens, and statuses  
+✅ **Wishlist/Favorites** - Buyers can save products for later viewing and sharing  
+✅ **Review System** - Customers can rate and review products with detailed feedback
+
+---
+
+## Merchant Features
+
+### Bulk Product Upload (`/bulk-upload`)
+Import multiple products at once using CSV or JSON files:
+- **Drag-and-drop interface** - Drop CSV/JSON files or click to select
+- **Auto-detection** - Automatically detects file format
+- **Batch processing** - Upload 1-1000+ products in one go
+- **Validation** - Real-time row-by-row validation with specific error messages
+- **Progress tracking** - Visual progress bar showing upload percentage
+- **Error handling** - Download error CSV to fix and retry
+- **Product preview** - See all uploaded products in a grid view
+
+**CSV Format:**
+```csv
+title,description,price,image_url
+Red Running Shoes,Premium athletic footwear,$49.99,https://images.unsplash.com/...
+Premium Yoga Mat,High-quality yoga mat for workouts,$24.99,https://images.unsplash.com/...
+```
+
+### Social Sharing (`/social-sharing`)
+Share products on social media with pre-written templates:
+- **Platform templates** - Optimized for Twitter (280 chars), Discord (embeds), Telegram
+- **One-click sharing** - Opens native share dialogs for each platform
+- **Copy-to-clipboard** - Manual sharing option for any platform
+- **Analytics dashboard** - Track shares, clicks, and conversions per product per platform
+- **Conversion tracking** - URL parameters automatically track which platform drove conversions
+- **Per-platform metrics** - See conversion rates and engagement by platform
+
+### Transaction History (`/transactions`)
+Complete record of all product sales:
+- **Timestamp** - When the transaction occurred
+- **Product** - Which product was purchased
+- **Amount** - Sale amount in selected token
+- **Token type** - SOL, USDC, or USDT
+- **Status** - Transaction status (confirmed/pending)
+- **Buyer wallet** - Wallet address of buyer
+- **Explorer link** - Click to view transaction on Solana Explorer
+
+### Wishlist (`/wishlist`)
+Customers can save favorite products:
+- **Save for later** - Add products to personal wishlist
+- **Share list** - Generate unique links to share wishlists with friends
+- **Quick checkout** - One-click purchase from wishlist
+- **Price alerts** - Optional notifications if product prices change
+
+### Review System (`/reviews`)
+Build community and social proof:
+- **Star ratings** - 1-5 star product ratings
+- **Written reviews** - Detailed customer feedback
+- **Verified purchases** - Show reviews from actual buyers only
+- **Photo uploads** - Customers can attach images to reviews
+- **Helpful voting** - Other customers vote on review usefulness
+
+---
+
+## How to Use
+
+### For Merchants
+1. **Create Products** - Go to "Create Blink" and add individual products
+2. **Bulk Upload** - Or use "Bulk Upload" to import many products at once via CSV/JSON
+3. **Share Socially** - Navigate to "Social Sharing" to generate templates
+4. **Choose Platform** - Select Twitter, Discord, or Telegram
+5. **Copy or Share** - Copy template text or click "Share on [Platform]"
+6. **Track Performance** - View analytics dashboard to see shares, clicks, and conversions per platform
+
+### For Buyers
+1. **Browse Products** - See products on social media (X, Discord, Reddit)
+2. **Click Blink** - Click the product link from any social platform
+3. **Select Token** - Choose payment token (SOL, USDC, or USDT)
+4. **Approve** - Approve transaction in your wallet
+5. **Done** - Purchase completes in ~400ms
+6. **Save & Review** - Add to wishlist and leave reviews for future buyers
 
 ---
 
@@ -174,3 +259,7 @@ https://youtu.be/2_zsfPyihlk
 ## Twitter
 
 https://x.com/blinkshop2025
+
+## Presentation Slide URL:
+https://docs.google.com/presentation/d/1iAU-e5TLH_vXD3cdvRx53mIWZP5rfrZ570EpBEEDing/edit?usp=sharing
+
