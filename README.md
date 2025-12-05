@@ -243,11 +243,11 @@ USDT: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenEqw
 
 ## GitHub
 
-https://github.com/jkumari08/blink-checkout
+https://github.com/jkumari08/blink-shop
 
 ## Demo Video
 
-https://youtu.be/2_zsfPyihlk
+https://youtu.be/x00CvmI3nUw
 
 ## Twitter
 
