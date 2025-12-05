@@ -36,7 +36,9 @@ BlinkShop is a two-sided social commerce platform:
 **Team Name:** BlinkShop  
 **Track:** Solana Main Track
 **Bounty:** Circle  
-**Team Members:** Jagrati Kumari (Full-Stack Blockchain Engineer - Solo)
+**Team Members:** 
+- Jagrati Kumari (Full-Stack Blockchain Engineer)
+- Smarika Koirala (Creative Director)
 
 ---
 
