@@ -209,15 +209,6 @@ Customers can save favorite products:
 - **Share list** - Generate unique links to share wishlists with friends
 - **Quick checkout** - One-click purchase from wishlist
 - **Price alerts** - Optional notifications if product prices change
-
-### Review System (`/reviews`)
-Build community and social proof:
-- **Star ratings** - 1-5 star product ratings
-- **Written reviews** - Detailed customer feedback
-- **Verified purchases** - Show reviews from actual buyers only
-- **Photo uploads** - Customers can attach images to reviews
-- **Helpful voting** - Other customers vote on review usefulness
-
 ---
 
 ## How to Use
